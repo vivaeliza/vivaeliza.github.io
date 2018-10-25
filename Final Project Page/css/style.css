@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-  background-color: #faebd7;
+  background-color: white;
   color: #127cd4;
 }
 h1 {
@@ -42,6 +42,8 @@ ul {
   margin: 0 auto;
 }
 li {
+  text-align: center;
+  font-family: "Lato", sans-serif;
   list-style: none;
   width: 300px;
   display: block;
@@ -60,4 +62,13 @@ a {
 .link:hover {
   color: black;
 
+}
+.nicknames {
+  display: inline-block;
+  margin: 0 auto;
+  color: #333333;
+  font-family: "Lato", sans-serif;
+}
+footer {
+  padding-bottom: 50px;
 }
