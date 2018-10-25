@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  background-color: #faebd7;
+  color: #127cd4;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: "Anton", sans-serif;
+  color: #127cd4;
+  border-bottom: solid;
+  margin: 0 400px 0 400px;
+  padding-bottom: none;
+}
+h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  padding-top: none;
+}
+h3 {
+  text-align: center;
+  color: #127cd4;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+}
+p {
+  text-align: center;
+  color: #333333;
+  font-family: "Lato", sans-serif;
+}
+img {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+ul {
+  list-style: none;
+  display: inline;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.good {
+  color: #333333;
+}
+.bad {
+  color: red;
+}
+a {
+  display: inline;
+  color: #6abcb9;
+}
+.link:hover {
+  color: black;
+
+}
