@@ -1,0 +1,70 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+body{
+  background-color: #6abcb9;
+  color: white;
+  border-style: double;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+
+}
+
+ul {
+  list-style: none;
+  Text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.birds {
+  color: blue;
+  font-style: italic;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.birds:hover {
+  color: black;
+}
+
+#lime {
+  background-color: lime;
+}
+.mammals {
+  color: red;
+  font-weight: 600;
+  padding: 0 20px 0 20px;
+}
+.fish {
+  color: orange;
+  text-decoration: underline;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+li{
+  width: 150px;
+  display: inline-block;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  border-style: groove;
+}
